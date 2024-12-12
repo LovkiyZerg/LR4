@@ -81,6 +81,7 @@ void get_execute(int& execute){
             std::cout << "Неверный ввод! Введите число заново" << std::endl;
             execute = 0;
         } else {
+            std::cin.ignore(35767, '\n');
             break;
         }
     }
@@ -96,6 +97,7 @@ void get_int(int& x){
             std::cout << "Неверный ввод! Введите число заново" << std::endl;
             x = 0;
         } else {
+            std::cin.ignore(35767, '\n');
             break;
         }
     }
