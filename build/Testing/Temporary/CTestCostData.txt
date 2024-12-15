@@ -1,0 +1,2 @@
+task5.random_symbols 1 0.00221937
+---

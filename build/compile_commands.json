@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/googletest/googlemock",
+  "command": "/usr/bin/c++  -I/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/include -I/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/src/gmock-all.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/googletest/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googlemock/src/gmock_main.cc",
+  "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/googletest/googletest",
+  "command": "/usr/bin/c++  -I/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -I/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/src/gtest-all.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/googletest/googletest",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/src/gtest_main.cc",
+  "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Task5.dir/Task_5.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Task_5.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Task_5.c",
+  "output": "code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/Task_5.c.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task5Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp",
+  "output": "code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o"
+}
+]
