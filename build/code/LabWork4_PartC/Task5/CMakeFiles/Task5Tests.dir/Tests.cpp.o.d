@@ -279,4 +279,5 @@ code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o: \
  /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include/gtest/gtest-test-part.h \
  /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include/gtest/gtest-typed-test.h \
  /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include/gtest/gtest_pred_impl.h \
- /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include/gtest/gtest_prod.h
+ /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include/gtest/gtest_prod.h \
+ /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/modules/functions.h

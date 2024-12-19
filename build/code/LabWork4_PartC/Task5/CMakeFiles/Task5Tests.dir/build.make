@@ -69,31 +69,32 @@ include code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/flags.make
 
-code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/flags.make
-code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o: /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp
-code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o"
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o -MF CMakeFiles/Task5Tests.dir/Tests.cpp.o.d -o CMakeFiles/Task5Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/flags.make
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o: /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o"
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o -MF CMakeFiles/Task5Tests.dir/Tests5.cpp.o.d -o CMakeFiles/Task5Tests.dir/Tests5.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp
 
-code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Task5Tests.dir/Tests.cpp.i"
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp > CMakeFiles/Task5Tests.dir/Tests.cpp.i
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Task5Tests.dir/Tests5.cpp.i"
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp > CMakeFiles/Task5Tests.dir/Tests5.cpp.i
 
-code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Task5Tests.dir/Tests.cpp.s"
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp -o CMakeFiles/Task5Tests.dir/Tests.cpp.s
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Task5Tests.dir/Tests5.cpp.s"
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp -o CMakeFiles/Task5Tests.dir/Tests5.cpp.s
 
 # Object files for target Task5Tests
 Task5Tests_OBJECTS = \
-"CMakeFiles/Task5Tests.dir/Tests.cpp.o"
+"CMakeFiles/Task5Tests.dir/Tests5.cpp.o"
 
 # External object files for target Task5Tests
 Task5Tests_EXTERNAL_OBJECTS =
 
-code/LabWork4_PartC/Task5/Task5Tests: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o
+code/LabWork4_PartC/Task5/Task5Tests: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o
 code/LabWork4_PartC/Task5/Task5Tests: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make
 code/LabWork4_PartC/Task5/Task5Tests: lib/libgtest_main.a
 code/LabWork4_PartC/Task5/Task5Tests: lib/libgtest.a
+code/LabWork4_PartC/Task5/Task5Tests: code/LabWork4_PartC/Task5/modules/libfunctions5.a
 code/LabWork4_PartC/Task5/Task5Tests: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task5Tests"
 	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task5Tests.dir/link.txt --verbose=$(VERBOSE)

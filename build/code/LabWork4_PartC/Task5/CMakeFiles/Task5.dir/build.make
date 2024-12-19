@@ -92,6 +92,7 @@ Task5_EXTERNAL_OBJECTS =
 
 code/LabWork4_PartC/Task5/Task5: code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/Task_5.c.o
 code/LabWork4_PartC/Task5/Task5: code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/build.make
+code/LabWork4_PartC/Task5/Task5: code/LabWork4_PartC/Task5/modules/libfunctions5.a
 code/LabWork4_PartC/Task5/Task5: code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Task5"
 	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task5.dir/link.txt --verbose=$(VERBOSE)

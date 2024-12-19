@@ -223,29 +223,29 @@ Task_5.c.s:
 	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/Task_5.c.s
 .PHONY : Task_5.c.s
 
-Tests.o: Tests.cpp.o
-.PHONY : Tests.o
+Tests5.o: Tests5.cpp.o
+.PHONY : Tests5.o
 
 # target to build an object file
-Tests.cpp.o:
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o
-.PHONY : Tests.cpp.o
+Tests5.cpp.o:
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o
+.PHONY : Tests5.cpp.o
 
-Tests.i: Tests.cpp.i
-.PHONY : Tests.i
+Tests5.i: Tests5.cpp.i
+.PHONY : Tests5.i
 
 # target to preprocess a source file
-Tests.cpp.i:
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.i
-.PHONY : Tests.cpp.i
+Tests5.cpp.i:
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.i
+.PHONY : Tests5.cpp.i
 
-Tests.s: Tests.cpp.s
-.PHONY : Tests.s
+Tests5.s: Tests5.cpp.s
+.PHONY : Tests5.s
 
 # target to generate assembly for a file
-Tests.cpp.s:
-	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.s
-.PHONY : Tests.cpp.s
+Tests5.cpp.s:
+	cd /home/lovkiy/Документы/453501/ОАиП/LR4/build && $(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.s
+.PHONY : Tests5.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... Task_5.o"
 	@echo "... Task_5.i"
 	@echo "... Task_5.s"
-	@echo "... Tests.o"
-	@echo "... Tests.i"
-	@echo "... Tests.s"
+	@echo "... Tests5.o"
+	@echo "... Tests5.i"
+	@echo "... Tests5.s"
 .PHONY : help
 
 

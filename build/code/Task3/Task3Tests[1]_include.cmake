@@ -1,0 +1,5 @@
+if(EXISTS "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3/Task3Tests[1]_tests.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3/Task3Tests[1]_tests.cmake")
+else()
+  add_test(Task3Tests_NOT_BUILT Task3Tests_NOT_BUILT)
+endif()

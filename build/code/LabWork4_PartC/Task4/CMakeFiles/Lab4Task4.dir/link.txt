@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Lab4Task4.dir/Task_4.c.o -o Lab4Task4 

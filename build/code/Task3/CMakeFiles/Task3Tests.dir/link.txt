@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Task3Tests.dir/Tests.cpp.o -o Task3Tests  ../../lib/libgtest_main.a ../../lib/libgtest.a modules/libfunctions3.a 

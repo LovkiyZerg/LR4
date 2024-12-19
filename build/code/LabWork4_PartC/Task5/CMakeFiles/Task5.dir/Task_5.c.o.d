@@ -52,4 +52,5 @@ code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/Task_5.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h
+ /usr/include/strings.h \
+ /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/modules/functions.h

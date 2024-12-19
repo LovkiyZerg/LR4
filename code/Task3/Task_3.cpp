@@ -1,9 +1,7 @@
 #include <iostream>
 #include <algorithm>
 
-void get_execute(int&);
-void get_int(int&);
-void get_double(double&);
+#include "modules/functions.h"
 
 int main(){
     setlocale(LC_ALL, "Russian");
@@ -15,7 +13,7 @@ int main(){
         std::cout << "Вариант 1" << std::endl << '\n';
         std::cout << "Введите число - количество строк и столбцов матрицы"  << std::endl;
         int N;
-        get_int(N);
+        get_int(&N);
         double **array = new double*[N];
         for(int i = 0; i < N; ++i){
             array[i] = new double[N];
@@ -23,7 +21,7 @@ int main(){
         std::cout <<"Введите элементы матрицы" << std::endl;
         for (int i = 0; i < N; ++i){
             for(int j = 0; j < N; ++j){
-                get_double(array[i][j]);
+                get_double(&array[i][j]);
             };
         };
         double max = array[0][0], min = array[0][0];
@@ -49,9 +47,7 @@ int main(){
             std::cout << "Максимальный и минимальный элементы в одной строке!" << std::endl;
         } else {
             std::cout << "Матрица, в которой строки с максимальным и минимальным элементами поменяны местами:" << std::endl;
-            for(int j = 0; j < N; ++j){
-                std::swap(array[max_i][j], array[min_i][j]);
-            }
+            swap_lines(array, max_i, min_i, N);
             for (int i = 0; i < N; ++i){
                 for(int j = 0; j < N; ++j){
                     std::cout << array[i][j] << '\t';
@@ -66,54 +62,8 @@ int main(){
         delete [] array;
         array = nullptr;
         std::cout << '\n' << "Чтобы перезапустить программу, введите 1" << '\n' << "Чтобы закрыть программу, введите 0" << std::endl;
-        get_execute(execute);
+        get_execute(&execute);
     } while(execute == 1);
 }
 
 
-void get_execute(int& execute){
-    execute = 0;
-    while(1){
-        std::cin >> execute;
-        if(std::cin.fail() || (execute != 1 && execute != 0)){
-            std::cin.clear();
-            std::cin.ignore(35767, '\n');
-            std::cout << "Неверный ввод! Введите число заново" << std::endl;
-            execute = 0;
-        } else {
-            std::cin.ignore(35767, '\n');
-            break;
-        }
-    }
-}
-
-void get_int(int& x){
-    x = 0;
-    while(1){
-        std::cin >> x;
-        if(std::cin.fail()){
-            std::cin.clear();
-            std::cin.ignore(35767, '\n');
-            std::cout << "Неверный ввод! Введите число заново" << std::endl;
-            x = 0;
-        } else {
-            std::cin.ignore(35767, '\n');
-            break;
-        }
-    }
-}
-
-void get_double(double& x){
-    x = 0;
-    while(1){
-        std::cin >> x;
-        if(std::cin.fail()){
-            std::cin.clear();
-            std::cin.ignore(35767, '\n');
-            std::cout << "Неверный ввод! Введите число заново" << std::endl;
-            x = 0;
-        } else {
-            break;
-        }
-    }
-}

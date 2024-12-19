@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunctions5.a CMakeFiles/functions5.dir/functions.c.o
+/usr/bin/ranlib libfunctions5.a

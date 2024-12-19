@@ -224,6 +224,162 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named Task1
+
+# Build rule for target.
+Task1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task1
+.PHONY : Task1
+
+# fast build rule for target.
+Task1/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1.dir/build.make code/Task1/CMakeFiles/Task1.dir/build
+.PHONY : Task1/fast
+
+#=============================================================================
+# Target rules for targets named Task1Tests
+
+# Build rule for target.
+Task1Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task1Tests
+.PHONY : Task1Tests
+
+# fast build rule for target.
+Task1Tests/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1Tests.dir/build.make code/Task1/CMakeFiles/Task1Tests.dir/build
+.PHONY : Task1Tests/fast
+
+#=============================================================================
+# Target rules for targets named functions1
+
+# Build rule for target.
+functions1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions1
+.PHONY : functions1
+
+# fast build rule for target.
+functions1/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task1/modules/CMakeFiles/functions1.dir/build.make code/Task1/modules/CMakeFiles/functions1.dir/build
+.PHONY : functions1/fast
+
+#=============================================================================
+# Target rules for targets named Task2
+
+# Build rule for target.
+Task2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task2
+.PHONY : Task2
+
+# fast build rule for target.
+Task2/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2.dir/build.make code/Task2/CMakeFiles/Task2.dir/build
+.PHONY : Task2/fast
+
+#=============================================================================
+# Target rules for targets named Task2Tests
+
+# Build rule for target.
+Task2Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task2Tests
+.PHONY : Task2Tests
+
+# fast build rule for target.
+Task2Tests/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2Tests.dir/build.make code/Task2/CMakeFiles/Task2Tests.dir/build
+.PHONY : Task2Tests/fast
+
+#=============================================================================
+# Target rules for targets named functions2
+
+# Build rule for target.
+functions2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions2
+.PHONY : functions2
+
+# fast build rule for target.
+functions2/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task2/modules/CMakeFiles/functions2.dir/build.make code/Task2/modules/CMakeFiles/functions2.dir/build
+.PHONY : functions2/fast
+
+#=============================================================================
+# Target rules for targets named Task3
+
+# Build rule for target.
+Task3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task3
+.PHONY : Task3
+
+# fast build rule for target.
+Task3/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3.dir/build.make code/Task3/CMakeFiles/Task3.dir/build
+.PHONY : Task3/fast
+
+#=============================================================================
+# Target rules for targets named Task3Tests
+
+# Build rule for target.
+Task3Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task3Tests
+.PHONY : Task3Tests
+
+# fast build rule for target.
+Task3Tests/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3Tests.dir/build.make code/Task3/CMakeFiles/Task3Tests.dir/build
+.PHONY : Task3Tests/fast
+
+#=============================================================================
+# Target rules for targets named functions3
+
+# Build rule for target.
+functions3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions3
+.PHONY : functions3
+
+# fast build rule for target.
+functions3/fast:
+	$(MAKE) $(MAKESILENT) -f code/Task3/modules/CMakeFiles/functions3.dir/build.make code/Task3/modules/CMakeFiles/functions3.dir/build
+.PHONY : functions3/fast
+
+#=============================================================================
+# Target rules for targets named Task4
+
+# Build rule for target.
+Task4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task4
+.PHONY : Task4
+
+# fast build rule for target.
+Task4/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build
+.PHONY : Task4/fast
+
+#=============================================================================
+# Target rules for targets named Task4Tests
+
+# Build rule for target.
+Task4Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task4Tests
+.PHONY : Task4Tests
+
+# fast build rule for target.
+Task4Tests/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build
+.PHONY : Task4Tests/fast
+
+#=============================================================================
+# Target rules for targets named functions4
+
+# Build rule for target.
+functions4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions4
+.PHONY : functions4
+
+# fast build rule for target.
+functions4/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build.make code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build
+.PHONY : functions4/fast
+
+#=============================================================================
 # Target rules for targets named Task5
 
 # Build rule for target.
@@ -249,6 +405,58 @@ Task5Tests/fast:
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build
 .PHONY : Task5Tests/fast
 
+#=============================================================================
+# Target rules for targets named functions5
+
+# Build rule for target.
+functions5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions5
+.PHONY : functions5
+
+# fast build rule for target.
+functions5/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build.make code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build
+.PHONY : functions5/fast
+
+#=============================================================================
+# Target rules for targets named Task6
+
+# Build rule for target.
+Task6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task6
+.PHONY : Task6
+
+# fast build rule for target.
+Task6/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build
+.PHONY : Task6/fast
+
+#=============================================================================
+# Target rules for targets named Task6Tests
+
+# Build rule for target.
+Task6Tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Task6Tests
+.PHONY : Task6Tests
+
+# fast build rule for target.
+Task6Tests/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build
+.PHONY : Task6Tests/fast
+
+#=============================================================================
+# Target rules for targets named functions6
+
+# Build rule for target.
+functions6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions6
+.PHONY : functions6
+
+# fast build rule for target.
+functions6/fast:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build.make code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build
+.PHONY : functions6/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,8 +470,24 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... Task1"
+	@echo "... Task1Tests"
+	@echo "... Task2"
+	@echo "... Task2Tests"
+	@echo "... Task3"
+	@echo "... Task3Tests"
+	@echo "... Task4"
+	@echo "... Task4Tests"
 	@echo "... Task5"
 	@echo "... Task5Tests"
+	@echo "... Task6"
+	@echo "... Task6Tests"
+	@echo "... functions1"
+	@echo "... functions2"
+	@echo "... functions3"
+	@echo "... functions4"
+	@echo "... functions5"
+	@echo "... functions6"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

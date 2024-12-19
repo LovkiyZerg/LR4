@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunctions6.a CMakeFiles/functions6.dir/functions.c.o
+/usr/bin/ranlib libfunctions6.a

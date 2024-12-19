@@ -42,3 +42,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5/modules/cmake_install.cmake")
+
+endif()
+

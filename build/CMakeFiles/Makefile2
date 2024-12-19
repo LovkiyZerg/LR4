@@ -64,18 +64,67 @@ CMAKE_BINARY_DIR = /home/lovkiy/Документы/453501/ОАиП/LR4/build
 
 # The main recursive "all" target.
 all: googletest/all
+all: code/Task1/all
+all: code/Task2/all
+all: code/Task3/all
+all: code/LabWork4_PartC/Task4/all
 all: code/LabWork4_PartC/Task5/all
+all: code/LabWork4_PartC/Task6/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: googletest/preinstall
+preinstall: code/Task1/preinstall
+preinstall: code/Task2/preinstall
+preinstall: code/Task3/preinstall
+preinstall: code/LabWork4_PartC/Task4/preinstall
 preinstall: code/LabWork4_PartC/Task5/preinstall
+preinstall: code/LabWork4_PartC/Task6/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: googletest/clean
+clean: code/Task1/clean
+clean: code/Task2/clean
+clean: code/Task3/clean
+clean: code/LabWork4_PartC/Task4/clean
 clean: code/LabWork4_PartC/Task5/clean
+clean: code/LabWork4_PartC/Task6/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory code/LabWork4_PartC/Task4
+
+# Recursive "all" directory target.
+code/LabWork4_PartC/Task4/all: code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/all
+code/LabWork4_PartC/Task4/all: code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all
+code/LabWork4_PartC/Task4/all: code/LabWork4_PartC/Task4/modules/all
+.PHONY : code/LabWork4_PartC/Task4/all
+
+# Recursive "preinstall" directory target.
+code/LabWork4_PartC/Task4/preinstall: code/LabWork4_PartC/Task4/modules/preinstall
+.PHONY : code/LabWork4_PartC/Task4/preinstall
+
+# Recursive "clean" directory target.
+code/LabWork4_PartC/Task4/clean: code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/clean
+code/LabWork4_PartC/Task4/clean: code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/clean
+code/LabWork4_PartC/Task4/clean: code/LabWork4_PartC/Task4/modules/clean
+.PHONY : code/LabWork4_PartC/Task4/clean
+
+#=============================================================================
+# Directory level rules for directory code/LabWork4_PartC/Task4/modules
+
+# Recursive "all" directory target.
+code/LabWork4_PartC/Task4/modules/all: code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all
+.PHONY : code/LabWork4_PartC/Task4/modules/all
+
+# Recursive "preinstall" directory target.
+code/LabWork4_PartC/Task4/modules/preinstall:
+.PHONY : code/LabWork4_PartC/Task4/modules/preinstall
+
+# Recursive "clean" directory target.
+code/LabWork4_PartC/Task4/modules/clean: code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/clean
+.PHONY : code/LabWork4_PartC/Task4/modules/clean
 
 #=============================================================================
 # Directory level rules for directory code/LabWork4_PartC/Task5
@@ -83,16 +132,169 @@ clean: code/LabWork4_PartC/Task5/clean
 # Recursive "all" directory target.
 code/LabWork4_PartC/Task5/all: code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/all
 code/LabWork4_PartC/Task5/all: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all
+code/LabWork4_PartC/Task5/all: code/LabWork4_PartC/Task5/modules/all
 .PHONY : code/LabWork4_PartC/Task5/all
 
 # Recursive "preinstall" directory target.
-code/LabWork4_PartC/Task5/preinstall:
+code/LabWork4_PartC/Task5/preinstall: code/LabWork4_PartC/Task5/modules/preinstall
 .PHONY : code/LabWork4_PartC/Task5/preinstall
 
 # Recursive "clean" directory target.
 code/LabWork4_PartC/Task5/clean: code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/clean
 code/LabWork4_PartC/Task5/clean: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/clean
+code/LabWork4_PartC/Task5/clean: code/LabWork4_PartC/Task5/modules/clean
 .PHONY : code/LabWork4_PartC/Task5/clean
+
+#=============================================================================
+# Directory level rules for directory code/LabWork4_PartC/Task5/modules
+
+# Recursive "all" directory target.
+code/LabWork4_PartC/Task5/modules/all: code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all
+.PHONY : code/LabWork4_PartC/Task5/modules/all
+
+# Recursive "preinstall" directory target.
+code/LabWork4_PartC/Task5/modules/preinstall:
+.PHONY : code/LabWork4_PartC/Task5/modules/preinstall
+
+# Recursive "clean" directory target.
+code/LabWork4_PartC/Task5/modules/clean: code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/clean
+.PHONY : code/LabWork4_PartC/Task5/modules/clean
+
+#=============================================================================
+# Directory level rules for directory code/LabWork4_PartC/Task6
+
+# Recursive "all" directory target.
+code/LabWork4_PartC/Task6/all: code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/all
+code/LabWork4_PartC/Task6/all: code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all
+code/LabWork4_PartC/Task6/all: code/LabWork4_PartC/Task6/modules/all
+.PHONY : code/LabWork4_PartC/Task6/all
+
+# Recursive "preinstall" directory target.
+code/LabWork4_PartC/Task6/preinstall: code/LabWork4_PartC/Task6/modules/preinstall
+.PHONY : code/LabWork4_PartC/Task6/preinstall
+
+# Recursive "clean" directory target.
+code/LabWork4_PartC/Task6/clean: code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/clean
+code/LabWork4_PartC/Task6/clean: code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/clean
+code/LabWork4_PartC/Task6/clean: code/LabWork4_PartC/Task6/modules/clean
+.PHONY : code/LabWork4_PartC/Task6/clean
+
+#=============================================================================
+# Directory level rules for directory code/LabWork4_PartC/Task6/modules
+
+# Recursive "all" directory target.
+code/LabWork4_PartC/Task6/modules/all: code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all
+.PHONY : code/LabWork4_PartC/Task6/modules/all
+
+# Recursive "preinstall" directory target.
+code/LabWork4_PartC/Task6/modules/preinstall:
+.PHONY : code/LabWork4_PartC/Task6/modules/preinstall
+
+# Recursive "clean" directory target.
+code/LabWork4_PartC/Task6/modules/clean: code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/clean
+.PHONY : code/LabWork4_PartC/Task6/modules/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task1
+
+# Recursive "all" directory target.
+code/Task1/all: code/Task1/CMakeFiles/Task1.dir/all
+code/Task1/all: code/Task1/CMakeFiles/Task1Tests.dir/all
+code/Task1/all: code/Task1/modules/all
+.PHONY : code/Task1/all
+
+# Recursive "preinstall" directory target.
+code/Task1/preinstall: code/Task1/modules/preinstall
+.PHONY : code/Task1/preinstall
+
+# Recursive "clean" directory target.
+code/Task1/clean: code/Task1/CMakeFiles/Task1.dir/clean
+code/Task1/clean: code/Task1/CMakeFiles/Task1Tests.dir/clean
+code/Task1/clean: code/Task1/modules/clean
+.PHONY : code/Task1/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task1/modules
+
+# Recursive "all" directory target.
+code/Task1/modules/all: code/Task1/modules/CMakeFiles/functions1.dir/all
+.PHONY : code/Task1/modules/all
+
+# Recursive "preinstall" directory target.
+code/Task1/modules/preinstall:
+.PHONY : code/Task1/modules/preinstall
+
+# Recursive "clean" directory target.
+code/Task1/modules/clean: code/Task1/modules/CMakeFiles/functions1.dir/clean
+.PHONY : code/Task1/modules/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task2
+
+# Recursive "all" directory target.
+code/Task2/all: code/Task2/CMakeFiles/Task2.dir/all
+code/Task2/all: code/Task2/CMakeFiles/Task2Tests.dir/all
+code/Task2/all: code/Task2/modules/all
+.PHONY : code/Task2/all
+
+# Recursive "preinstall" directory target.
+code/Task2/preinstall: code/Task2/modules/preinstall
+.PHONY : code/Task2/preinstall
+
+# Recursive "clean" directory target.
+code/Task2/clean: code/Task2/CMakeFiles/Task2.dir/clean
+code/Task2/clean: code/Task2/CMakeFiles/Task2Tests.dir/clean
+code/Task2/clean: code/Task2/modules/clean
+.PHONY : code/Task2/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task2/modules
+
+# Recursive "all" directory target.
+code/Task2/modules/all: code/Task2/modules/CMakeFiles/functions2.dir/all
+.PHONY : code/Task2/modules/all
+
+# Recursive "preinstall" directory target.
+code/Task2/modules/preinstall:
+.PHONY : code/Task2/modules/preinstall
+
+# Recursive "clean" directory target.
+code/Task2/modules/clean: code/Task2/modules/CMakeFiles/functions2.dir/clean
+.PHONY : code/Task2/modules/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task3
+
+# Recursive "all" directory target.
+code/Task3/all: code/Task3/CMakeFiles/Task3.dir/all
+code/Task3/all: code/Task3/CMakeFiles/Task3Tests.dir/all
+code/Task3/all: code/Task3/modules/all
+.PHONY : code/Task3/all
+
+# Recursive "preinstall" directory target.
+code/Task3/preinstall: code/Task3/modules/preinstall
+.PHONY : code/Task3/preinstall
+
+# Recursive "clean" directory target.
+code/Task3/clean: code/Task3/CMakeFiles/Task3.dir/clean
+code/Task3/clean: code/Task3/CMakeFiles/Task3Tests.dir/clean
+code/Task3/clean: code/Task3/modules/clean
+.PHONY : code/Task3/clean
+
+#=============================================================================
+# Directory level rules for directory code/Task3/modules
+
+# Recursive "all" directory target.
+code/Task3/modules/all: code/Task3/modules/CMakeFiles/functions3.dir/all
+.PHONY : code/Task3/modules/all
+
+# Recursive "preinstall" directory target.
+code/Task3/modules/preinstall:
+.PHONY : code/Task3/modules/preinstall
+
+# Recursive "clean" directory target.
+code/Task3/modules/clean: code/Task3/modules/CMakeFiles/functions3.dir/clean
+.PHONY : code/Task3/modules/clean
 
 #=============================================================================
 # Directory level rules for directory googletest
@@ -152,7 +354,7 @@ googletest/googletest/clean: googletest/googletest/CMakeFiles/gtest_main.dir/cle
 googletest/googlemock/CMakeFiles/gmock.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=37,38 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,7 +381,7 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMake
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=39,40 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -205,7 +407,7 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=41,42 "Built target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -231,7 +433,7 @@ googletest/googletest/CMakeFiles/gtest.dir/clean:
 googletest/googletest/CMakeFiles/gtest_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=43,44 "Built target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,18 +453,338 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
 #=============================================================================
+# Target rules for target code/Task1/CMakeFiles/Task1.dir
+
+# All Build rule for target.
+code/Task1/CMakeFiles/Task1.dir/all: code/Task1/modules/CMakeFiles/functions1.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1.dir/build.make code/Task1/CMakeFiles/Task1.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1.dir/build.make code/Task1/CMakeFiles/Task1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=1,2 "Built target Task1"
+.PHONY : code/Task1/CMakeFiles/Task1.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task1/CMakeFiles/Task1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task1/CMakeFiles/Task1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task1/CMakeFiles/Task1.dir/rule
+
+# Convenience name for target.
+Task1: code/Task1/CMakeFiles/Task1.dir/rule
+.PHONY : Task1
+
+# clean rule for target.
+code/Task1/CMakeFiles/Task1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1.dir/build.make code/Task1/CMakeFiles/Task1.dir/clean
+.PHONY : code/Task1/CMakeFiles/Task1.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task1/CMakeFiles/Task1Tests.dir
+
+# All Build rule for target.
+code/Task1/CMakeFiles/Task1Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+code/Task1/CMakeFiles/Task1Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/Task1/CMakeFiles/Task1Tests.dir/all: code/Task1/modules/CMakeFiles/functions1.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1Tests.dir/build.make code/Task1/CMakeFiles/Task1Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1Tests.dir/build.make code/Task1/CMakeFiles/Task1Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=3,4 "Built target Task1Tests"
+.PHONY : code/Task1/CMakeFiles/Task1Tests.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task1/CMakeFiles/Task1Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task1/CMakeFiles/Task1Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task1/CMakeFiles/Task1Tests.dir/rule
+
+# Convenience name for target.
+Task1Tests: code/Task1/CMakeFiles/Task1Tests.dir/rule
+.PHONY : Task1Tests
+
+# clean rule for target.
+code/Task1/CMakeFiles/Task1Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task1/CMakeFiles/Task1Tests.dir/build.make code/Task1/CMakeFiles/Task1Tests.dir/clean
+.PHONY : code/Task1/CMakeFiles/Task1Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task1/modules/CMakeFiles/functions1.dir
+
+# All Build rule for target.
+code/Task1/modules/CMakeFiles/functions1.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/Task1/modules/CMakeFiles/functions1.dir/build.make code/Task1/modules/CMakeFiles/functions1.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task1/modules/CMakeFiles/functions1.dir/build.make code/Task1/modules/CMakeFiles/functions1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=25,26 "Built target functions1"
+.PHONY : code/Task1/modules/CMakeFiles/functions1.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task1/modules/CMakeFiles/functions1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task1/modules/CMakeFiles/functions1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task1/modules/CMakeFiles/functions1.dir/rule
+
+# Convenience name for target.
+functions1: code/Task1/modules/CMakeFiles/functions1.dir/rule
+.PHONY : functions1
+
+# clean rule for target.
+code/Task1/modules/CMakeFiles/functions1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task1/modules/CMakeFiles/functions1.dir/build.make code/Task1/modules/CMakeFiles/functions1.dir/clean
+.PHONY : code/Task1/modules/CMakeFiles/functions1.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task2/CMakeFiles/Task2.dir
+
+# All Build rule for target.
+code/Task2/CMakeFiles/Task2.dir/all: code/Task2/modules/CMakeFiles/functions2.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2.dir/build.make code/Task2/CMakeFiles/Task2.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2.dir/build.make code/Task2/CMakeFiles/Task2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=5,6 "Built target Task2"
+.PHONY : code/Task2/CMakeFiles/Task2.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task2/CMakeFiles/Task2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task2/CMakeFiles/Task2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task2/CMakeFiles/Task2.dir/rule
+
+# Convenience name for target.
+Task2: code/Task2/CMakeFiles/Task2.dir/rule
+.PHONY : Task2
+
+# clean rule for target.
+code/Task2/CMakeFiles/Task2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2.dir/build.make code/Task2/CMakeFiles/Task2.dir/clean
+.PHONY : code/Task2/CMakeFiles/Task2.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task2/CMakeFiles/Task2Tests.dir
+
+# All Build rule for target.
+code/Task2/CMakeFiles/Task2Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+code/Task2/CMakeFiles/Task2Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/Task2/CMakeFiles/Task2Tests.dir/all: code/Task2/modules/CMakeFiles/functions2.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2Tests.dir/build.make code/Task2/CMakeFiles/Task2Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2Tests.dir/build.make code/Task2/CMakeFiles/Task2Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=7,8 "Built target Task2Tests"
+.PHONY : code/Task2/CMakeFiles/Task2Tests.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task2/CMakeFiles/Task2Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task2/CMakeFiles/Task2Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task2/CMakeFiles/Task2Tests.dir/rule
+
+# Convenience name for target.
+Task2Tests: code/Task2/CMakeFiles/Task2Tests.dir/rule
+.PHONY : Task2Tests
+
+# clean rule for target.
+code/Task2/CMakeFiles/Task2Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task2/CMakeFiles/Task2Tests.dir/build.make code/Task2/CMakeFiles/Task2Tests.dir/clean
+.PHONY : code/Task2/CMakeFiles/Task2Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task2/modules/CMakeFiles/functions2.dir
+
+# All Build rule for target.
+code/Task2/modules/CMakeFiles/functions2.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/Task2/modules/CMakeFiles/functions2.dir/build.make code/Task2/modules/CMakeFiles/functions2.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task2/modules/CMakeFiles/functions2.dir/build.make code/Task2/modules/CMakeFiles/functions2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=27,28 "Built target functions2"
+.PHONY : code/Task2/modules/CMakeFiles/functions2.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task2/modules/CMakeFiles/functions2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task2/modules/CMakeFiles/functions2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task2/modules/CMakeFiles/functions2.dir/rule
+
+# Convenience name for target.
+functions2: code/Task2/modules/CMakeFiles/functions2.dir/rule
+.PHONY : functions2
+
+# clean rule for target.
+code/Task2/modules/CMakeFiles/functions2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task2/modules/CMakeFiles/functions2.dir/build.make code/Task2/modules/CMakeFiles/functions2.dir/clean
+.PHONY : code/Task2/modules/CMakeFiles/functions2.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task3/CMakeFiles/Task3.dir
+
+# All Build rule for target.
+code/Task3/CMakeFiles/Task3.dir/all: code/Task3/modules/CMakeFiles/functions3.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3.dir/build.make code/Task3/CMakeFiles/Task3.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3.dir/build.make code/Task3/CMakeFiles/Task3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=9,10 "Built target Task3"
+.PHONY : code/Task3/CMakeFiles/Task3.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task3/CMakeFiles/Task3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task3/CMakeFiles/Task3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task3/CMakeFiles/Task3.dir/rule
+
+# Convenience name for target.
+Task3: code/Task3/CMakeFiles/Task3.dir/rule
+.PHONY : Task3
+
+# clean rule for target.
+code/Task3/CMakeFiles/Task3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3.dir/build.make code/Task3/CMakeFiles/Task3.dir/clean
+.PHONY : code/Task3/CMakeFiles/Task3.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task3/CMakeFiles/Task3Tests.dir
+
+# All Build rule for target.
+code/Task3/CMakeFiles/Task3Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+code/Task3/CMakeFiles/Task3Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/Task3/CMakeFiles/Task3Tests.dir/all: code/Task3/modules/CMakeFiles/functions3.dir/all
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3Tests.dir/build.make code/Task3/CMakeFiles/Task3Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3Tests.dir/build.make code/Task3/CMakeFiles/Task3Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=11,12 "Built target Task3Tests"
+.PHONY : code/Task3/CMakeFiles/Task3Tests.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task3/CMakeFiles/Task3Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task3/CMakeFiles/Task3Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task3/CMakeFiles/Task3Tests.dir/rule
+
+# Convenience name for target.
+Task3Tests: code/Task3/CMakeFiles/Task3Tests.dir/rule
+.PHONY : Task3Tests
+
+# clean rule for target.
+code/Task3/CMakeFiles/Task3Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task3/CMakeFiles/Task3Tests.dir/build.make code/Task3/CMakeFiles/Task3Tests.dir/clean
+.PHONY : code/Task3/CMakeFiles/Task3Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/Task3/modules/CMakeFiles/functions3.dir
+
+# All Build rule for target.
+code/Task3/modules/CMakeFiles/functions3.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/Task3/modules/CMakeFiles/functions3.dir/build.make code/Task3/modules/CMakeFiles/functions3.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/Task3/modules/CMakeFiles/functions3.dir/build.make code/Task3/modules/CMakeFiles/functions3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=29,30 "Built target functions3"
+.PHONY : code/Task3/modules/CMakeFiles/functions3.dir/all
+
+# Build rule for subdir invocation for target.
+code/Task3/modules/CMakeFiles/functions3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/Task3/modules/CMakeFiles/functions3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/Task3/modules/CMakeFiles/functions3.dir/rule
+
+# Convenience name for target.
+functions3: code/Task3/modules/CMakeFiles/functions3.dir/rule
+.PHONY : functions3
+
+# clean rule for target.
+code/Task3/modules/CMakeFiles/functions3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/Task3/modules/CMakeFiles/functions3.dir/build.make code/Task3/modules/CMakeFiles/functions3.dir/clean
+.PHONY : code/Task3/modules/CMakeFiles/functions3.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/all: code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=13,14 "Built target Task4"
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/rule
+
+# Convenience name for target.
+Task4: code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/rule
+.PHONY : Task4
+
+# clean rule for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/clean
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all: code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=15,16 "Built target Task4Tests"
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/rule
+
+# Convenience name for target.
+Task4Tests: code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/rule
+.PHONY : Task4Tests
+
+# clean rule for target.
+code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/build.make code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/clean
+.PHONY : code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build.make code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build.make code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=31,32 "Built target functions4"
+.PHONY : code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/rule
+
+# Convenience name for target.
+functions4: code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/rule
+.PHONY : functions4
+
+# clean rule for target.
+code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/build.make code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/clean
+.PHONY : code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/clean
+
+#=============================================================================
 # Target rules for target code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir
 
 # All Build rule for target.
-code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/all:
+code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/all: code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/depend
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=1,2 "Built target Task5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=17,18 "Built target Task5"
 .PHONY : code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/all
 
 # Build rule for subdir invocation for target.
 code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
 .PHONY : code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/rule
@@ -282,14 +804,15 @@ code/LabWork4_PartC/Task5/CMakeFiles/Task5.dir/clean:
 # All Build rule for target.
 code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all: code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=3,4 "Built target Task5Tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=19,20 "Built target Task5Tests"
 .PHONY : code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all
 
 # Build rule for subdir invocation for target.
 code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
 .PHONY : code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/rule
@@ -302,6 +825,112 @@ Task5Tests: code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/rule
 code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/build.make code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/clean
 .PHONY : code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build.make code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build.make code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=33,34 "Built target functions5"
+.PHONY : code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/rule
+
+# Convenience name for target.
+functions5: code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/rule
+.PHONY : functions5
+
+# clean rule for target.
+code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/build.make code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/clean
+.PHONY : code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/all: code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=21,22 "Built target Task6"
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/rule
+
+# Convenience name for target.
+Task6: code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/rule
+.PHONY : Task6
+
+# clean rule for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/clean
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
+code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all: code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=23,24 "Built target Task6Tests"
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/rule
+
+# Convenience name for target.
+Task6Tests: code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/rule
+.PHONY : Task6Tests
+
+# clean rule for target.
+code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/build.make code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/clean
+.PHONY : code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/clean
+
+#=============================================================================
+# Target rules for target code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir
+
+# All Build rule for target.
+code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build.make code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/depend
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build.make code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles --progress-num=35,36 "Built target functions6"
+.PHONY : code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all
+
+# Build rule for subdir invocation for target.
+code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lovkiy/Документы/453501/ОАиП/LR4/build/CMakeFiles 0
+.PHONY : code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/rule
+
+# Convenience name for target.
+functions6: code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/rule
+.PHONY : functions6
+
+# clean rule for target.
+code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/build.make code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/clean
+.PHONY : code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

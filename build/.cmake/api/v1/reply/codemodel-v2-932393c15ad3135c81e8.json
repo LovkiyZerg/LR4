@@ -1,0 +1,700 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						6,
+						8,
+						10,
+						12,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-Debug-5680492ebebea2dba35e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "googletest"
+				},
+				{
+					"build" : "googletest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googlemock-Debug-33d74342e21669675cfa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "googletest/googlemock",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googletest-Debug-3b1ad0baa4c42e6cce2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "googletest/googletest",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "code/Task1",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-code.Task1-Debug-f87408807d99f998dbea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "code/Task1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "code/Task1/modules",
+					"jsonFile" : "directory-code.Task1.modules-Debug-14956ecc08ad714c22e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "code/Task1/modules",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "code/Task2",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-code.Task2-Debug-857d9ae2fead406364e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "code/Task2",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "code/Task2/modules",
+					"jsonFile" : "directory-code.Task2.modules-Debug-9b84bdc80f41e0ddc998.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 7,
+					"source" : "code/Task2/modules",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "code/Task3",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-code.Task3-Debug-7bc6961766e12a1db5f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "code/Task3",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "code/Task3/modules",
+					"jsonFile" : "directory-code.Task3.modules-Debug-d3421c393f728d3a35bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 9,
+					"source" : "code/Task3/modules",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task4",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-code.LabWork4_PartC.Task4-Debug-96726e14e278b5db8bb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "code/LabWork4_PartC/Task4",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task4/modules",
+					"jsonFile" : "directory-code.LabWork4_PartC.Task4.modules-Debug-117ef5405bb383f62df5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 11,
+					"source" : "code/LabWork4_PartC/Task4/modules",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task5",
+					"childIndexes" : 
+					[
+						13
+					],
+					"jsonFile" : "directory-code.LabWork4_PartC.Task5-Debug-c09edd783c0baefe496f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "code/LabWork4_PartC/Task5",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task5/modules",
+					"jsonFile" : "directory-code.LabWork4_PartC.Task5.modules-Debug-ee211d966b48892c46af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 13,
+					"source" : "code/LabWork4_PartC/Task5/modules",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task6",
+					"childIndexes" : 
+					[
+						15
+					],
+					"jsonFile" : "directory-code.LabWork4_PartC.Task6-Debug-b92be4492bc9e9076226.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "code/LabWork4_PartC/Task6",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "code/LabWork4_PartC/Task6/modules",
+					"jsonFile" : "directory-code.LabWork4_PartC.Task6.modules-Debug-8eb32a6a6c784a6ee51c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 15,
+					"source" : "code/LabWork4_PartC/Task6/modules",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						6,
+						8,
+						10,
+						12,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Task1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "functions",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Task4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "functions",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "Task4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "functions",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						11
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "Task4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "functions",
+					"parentIndex" : 10,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "Task5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "functions",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						15
+					],
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "Task6",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "functions",
+					"parentIndex" : 14,
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Task1::@c02f1670f281335edf9a",
+					"jsonFile" : "target-Task1-Debug-41d413cbdca23d866398.json",
+					"name" : "Task1",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Task1Tests::@c02f1670f281335edf9a",
+					"jsonFile" : "target-Task1Tests-Debug-a8524cd88f1734e6205b.json",
+					"name" : "Task1Tests",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Task2::@f094e759ad5d45cab576",
+					"jsonFile" : "target-Task2-Debug-e8239ef48d66fe90f2f2.json",
+					"name" : "Task2",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Task2Tests::@f094e759ad5d45cab576",
+					"jsonFile" : "target-Task2Tests-Debug-f1dc2ef71631675b6eee.json",
+					"name" : "Task2Tests",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Task3::@59c7bd68f6a5de4c5393",
+					"jsonFile" : "target-Task3-Debug-f3bce01e4e8053d7c812.json",
+					"name" : "Task3",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Task3Tests::@59c7bd68f6a5de4c5393",
+					"jsonFile" : "target-Task3Tests-Debug-bc65774e30dd647e60af.json",
+					"name" : "Task3Tests",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Task4::@0b8421b9f1a77c78e26c",
+					"jsonFile" : "target-Task4-Debug-73f4c77051dd059f215b.json",
+					"name" : "Task4",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Task4Tests::@0b8421b9f1a77c78e26c",
+					"jsonFile" : "target-Task4Tests-Debug-ec48eca7f20305983898.json",
+					"name" : "Task4Tests",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Task5::@a198bb94a409c777be03",
+					"jsonFile" : "target-Task5-Debug-c4a5063be22d5219562f.json",
+					"name" : "Task5",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Task5Tests::@a198bb94a409c777be03",
+					"jsonFile" : "target-Task5Tests-Debug-700849d10ba6f707d00e.json",
+					"name" : "Task5Tests",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Task6::@4c52291731cbfa8ca15d",
+					"jsonFile" : "target-Task6-Debug-05982ff97cddae0f38be.json",
+					"name" : "Task6",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Task6Tests::@4c52291731cbfa8ca15d",
+					"jsonFile" : "target-Task6Tests-Debug-5553beeb5e607afe3219.json",
+					"name" : "Task6Tests",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "functions1::@9de8c4e1dd4e43621ac4",
+					"jsonFile" : "target-functions1-Debug-342bce02f83362e8b206.json",
+					"name" : "functions1",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "functions2::@5d613305837d3231e405",
+					"jsonFile" : "target-functions2-Debug-76486971b30c284c6b55.json",
+					"name" : "functions2",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "functions3::@fead323febd10129b670",
+					"jsonFile" : "target-functions3-Debug-0debf7c5952a6f57285e.json",
+					"name" : "functions3",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "functions4::@7fad9207024d9168e17f",
+					"jsonFile" : "target-functions4-Debug-0291b06b08b8727442d2.json",
+					"name" : "functions4",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "functions5::@01bab32788e63698aaf7",
+					"jsonFile" : "target-functions5-Debug-90285a7eb7b017b62621.json",
+					"name" : "functions5",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "functions6::@385bef26e25853adf009",
+					"jsonFile" : "target-functions6-Debug-eb070a6c297f39a4427a.json",
+					"name" : "functions6",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock-Debug-8d90080aa57d6e1d7f68.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock_main-Debug-5626599a26730e827ed3.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-Debug-e006d5f27c667d4ae7a6.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-Debug-26d7f71a2f7305dba957.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lovkiy/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/453501/\u041e\u0410\u0438\u041f/LR4/build",
+		"source" : "/home/lovkiy/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/453501/\u041e\u0410\u0438\u041f/LR4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -24,6 +24,78 @@
   "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 },
 {
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task1",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Task1.dir/Task_1.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/Task_1.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/Task_1.cpp",
+  "output": "code/Task1/CMakeFiles/Task1.dir/Task_1.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task1",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task1Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/Tests.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/Tests.cpp",
+  "output": "code/Task1/CMakeFiles/Task1Tests.dir/Tests.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task1/modules",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/functions1.dir/functions.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/modules/functions.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task1/modules/functions.cpp",
+  "output": "code/Task1/modules/CMakeFiles/functions1.dir/functions.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task2",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Task2.dir/Task_2.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/Task_2.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/Task_2.cpp",
+  "output": "code/Task2/CMakeFiles/Task2.dir/Task_2.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task2",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task2Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/Tests.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/Tests.cpp",
+  "output": "code/Task2/CMakeFiles/Task2Tests.dir/Tests.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task2/modules",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/functions2.dir/functions.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/modules/functions.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task2/modules/functions.cpp",
+  "output": "code/Task2/modules/CMakeFiles/functions2.dir/functions.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Task3.dir/Task_3.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/Task_3.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/Task_3.cpp",
+  "output": "code/Task3/CMakeFiles/Task3.dir/Task_3.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task3Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/Tests.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/Tests.cpp",
+  "output": "code/Task3/CMakeFiles/Task3Tests.dir/Tests.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3/modules",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/functions3.dir/functions.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/modules/functions.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/Task3/modules/functions.cpp",
+  "output": "code/Task3/modules/CMakeFiles/functions3.dir/functions.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task4",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Task4.dir/Task_4.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/Task_4.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/Task_4.c",
+  "output": "code/LabWork4_PartC/Task4/CMakeFiles/Task4.dir/Task_4.c.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task4",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task4Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/Tests.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/Tests.cpp",
+  "output": "code/LabWork4_PartC/Task4/CMakeFiles/Task4Tests.dir/Tests.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task4/modules",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/functions4.dir/functions.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/modules/functions.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4/modules/functions.c",
+  "output": "code/LabWork4_PartC/Task4/modules/CMakeFiles/functions4.dir/functions.c.o"
+},
+{
   "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5",
   "command": "/usr/bin/cc   -g -o CMakeFiles/Task5.dir/Task_5.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Task_5.c",
   "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Task_5.c",
@@ -31,8 +103,32 @@
 },
 {
   "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5",
-  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task5Tests.dir/Tests.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp",
-  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests.cpp",
-  "output": "code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests.cpp.o"
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task5Tests.dir/Tests5.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/Tests5.cpp",
+  "output": "code/LabWork4_PartC/Task5/CMakeFiles/Task5Tests.dir/Tests5.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5/modules",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/functions5.dir/functions.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/modules/functions.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task5/modules/functions.c",
+  "output": "code/LabWork4_PartC/Task5/modules/CMakeFiles/functions5.dir/functions.c.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task6",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/Task6.dir/Task6.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/Task6.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/Task6.c",
+  "output": "code/LabWork4_PartC/Task6/CMakeFiles/Task6.dir/Task6.c.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task6",
+  "command": "/usr/bin/c++  -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest/include -isystem /home/lovkiy/Документы/453501/ОАиП/LR4/googletest/googletest -g -o CMakeFiles/Task6Tests.dir/Tests6.cpp.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/Tests6.cpp",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/Tests6.cpp",
+  "output": "code/LabWork4_PartC/Task6/CMakeFiles/Task6Tests.dir/Tests6.cpp.o"
+},
+{
+  "directory": "/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task6/modules",
+  "command": "/usr/bin/cc   -g -o CMakeFiles/functions6.dir/functions.c.o -c /home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/modules/functions.c",
+  "file": "/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task6/modules/functions.c",
+  "output": "code/LabWork4_PartC/Task6/modules/CMakeFiles/functions6.dir/functions.c.o"
 }
 ]

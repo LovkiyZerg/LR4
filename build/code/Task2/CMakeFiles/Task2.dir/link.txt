@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Task2.dir/Task_2.cpp.o -o Task2  modules/libfunctions2.a 

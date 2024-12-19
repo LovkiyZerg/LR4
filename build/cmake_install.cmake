@@ -45,7 +45,12 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/googletest/cmake_install.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task1/cmake_install.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task2/cmake_install.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/Task3/cmake_install.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task4/cmake_install.cmake")
   include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task5/cmake_install.cmake")
+  include("/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task6/cmake_install.cmake")
 
 endif()
 
