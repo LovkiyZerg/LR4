@@ -2,7 +2,7 @@
 
 #include "modules/functions.h"
 
-TEST(task3, simple_lines_swap){
+TEST(task3, SimpleLinesSwap){
     int N = 3;
     double **array = new double*[N];
         for(int i = 0; i < N; ++i){

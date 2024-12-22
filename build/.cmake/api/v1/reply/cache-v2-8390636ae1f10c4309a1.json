@@ -1522,42 +1522,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Lab4Task4_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/lovkiy/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/453501/\u041e\u0410\u0438\u041f/LR4/build/code/LabWork4_PartC/Task4"
-		},
-		{
-			"name" : "Lab4Task4_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "Lab4Task4_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/lovkiy/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/453501/\u041e\u0410\u0438\u041f/LR4/code/LabWork4_PartC/Task4"
-		},
-		{
 			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[

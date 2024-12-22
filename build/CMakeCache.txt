@@ -289,15 +289,6 @@ GTEST_HAS_ABSL:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-Lab4Task4_BINARY_DIR:STATIC=/home/lovkiy/Документы/453501/ОАиП/LR4/build/code/LabWork4_PartC/Task4
-
-//Value Computed by CMake
-Lab4Task4_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Lab4Task4_SOURCE_DIR:STATIC=/home/lovkiy/Документы/453501/ОАиП/LR4/code/LabWork4_PartC/Task4
-
-//Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/lovkiy/Документы/453501/ОАиП/LR4/build
 
 //Value Computed by CMake
